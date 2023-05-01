@@ -61,9 +61,9 @@ export default function StepHandler({
 
   // ======================= Render =======================
   const isMobile = useMobile();
-  if (isMobile) {
-    return null;
-  }
+  // if (isMobile) {
+  //   return null;
+  // }
 
   const handlerClassName = `${prefixCls}-handler`;
 
