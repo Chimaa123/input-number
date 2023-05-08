@@ -12,9 +12,7 @@
   "bugs": {
     "url": "https://github.com/Chimaa123/input-number.git/issues"
   },
-  "repository": "https://github.com/Chimaa123/input-number.git",
-  "license": "MIT",
-  "author": "tsjxyz@gmail.com",
+  "repository": "git@github.com:Chimaa123/input-number.git",
   "main": "./lib/index",
   "module": "./es/index",
   "types": "./es/index.d.ts",
@@ -23,6 +21,9 @@
     "es",
     "assets/*.css"
   ],
+  "author": "Chimaa123",
+  "license": "MIT",
+  "private": false,
   "publishConfig": {
     "delivus:registry": "https://npm.pkg.github.com"
   },
