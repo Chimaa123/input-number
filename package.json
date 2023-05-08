@@ -1,6 +1,6 @@
 {
-  "name": "rc-input-number",
-  "version": "7.4.3",
+  "name": "@delivus/rc-input-number",
+  "version": "7.4.4",
   "description": "React input-number component",
   "keywords": [
     "react",
@@ -26,6 +26,9 @@
     "es",
     "assets/*.css"
   ],
+  "publishConfig": {
+    "delivus:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "compile": "father build && lessc assets/index.less assets/index.css",
     "coverage": "rc-test --coverage",
