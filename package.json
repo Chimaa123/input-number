@@ -12,10 +12,7 @@
   "bugs": {
     "url": "https://github.com/Chimaa123/input-number.git/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Chimaa123/input-number.git"
-  },
+  "repository": "https://github.com/Chimaa123/input-number.git",
   "license": "MIT",
   "author": "tsjxyz@gmail.com",
   "main": "./lib/index",
