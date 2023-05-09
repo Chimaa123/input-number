@@ -524,6 +524,7 @@ const InputNumber = React.forwardRef(
       }
     }, [inputValue]);
 
+    console.log('render input number')
     // ============================ Render ============================
     return (
       <div

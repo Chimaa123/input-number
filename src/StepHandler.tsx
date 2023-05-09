@@ -65,6 +65,7 @@ export default function StepHandler({
   //   return null;
   // }
 
+  console.log('render stephandler')
   const handlerClassName = `${prefixCls}-handler`;
 
   const upClassName = classNames(handlerClassName, `${handlerClassName}-up`, {
