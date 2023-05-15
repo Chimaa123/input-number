@@ -550,9 +550,7 @@ const InputNumber = React.forwardRef(
           <StepHandler
             prefixCls={prefixCls}
             upNode={upHandler}
-            downNode={downHandler}
             upDisabled={upDisabled}
-            downDisabled={downDisabled}
             onStep={onInternalStep}
           />
         )}
@@ -573,6 +571,14 @@ const InputNumber = React.forwardRef(
             readOnly={readOnly}
           />
         </div>
+        {controls && (
+          <StepHandler
+            prefixCls={prefixCls}
+            downNode={downHandler}
+            downDisabled={downDisabled}
+            onStep={onInternalStep}
+          />
+        )}
       </div>
     );
   },
