@@ -549,8 +549,8 @@ const InputNumber = React.forwardRef(
         {controls && (
           <StepHandler
             prefixCls={prefixCls}
-            upNode={upHandler}
-            upDisabled={upDisabled}
+            downNode={downHandler}
+            downDisabled={downDisabled}
             onStep={onInternalStep}
           />
         )}
@@ -574,8 +574,8 @@ const InputNumber = React.forwardRef(
         {controls && (
           <StepHandler
             prefixCls={prefixCls}
-            downNode={downHandler}
-            downDisabled={downDisabled}
+            upNode={upHandler}
+            upDisabled={upDisabled}
             onStep={onInternalStep}
           />
         )}
