@@ -84,7 +84,7 @@ export default function StepHandler({
 
   return (
     <div className={`${handlerClassName}-wrap`}>
-      <span
+      {upNode && <span
         {...sharedHandlerProps}
         onMouseDown={(e) => {
           onStepMouseDown(e, true);
@@ -94,8 +94,8 @@ export default function StepHandler({
         className={upClassName}
       >
         {upNode || <span unselectable="on" className={`${prefixCls}-handler-up-inner`} />}
-      </span>
-      <span
+      </span>}
+      {downNode && <span
         {...sharedHandlerProps}
         onMouseDown={(e) => {
           onStepMouseDown(e, false);
@@ -105,7 +105,7 @@ export default function StepHandler({
         className={downClassName}
       >
         {downNode || <span unselectable="on" className={`${prefixCls}-handler-down-inner`} />}
-      </span>
+      </span>}
     </div>
   );
 }
